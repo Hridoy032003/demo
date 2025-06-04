@@ -11,8 +11,8 @@ setInterval(() => {
 let imageAbout = document.getElementById("imageAbout");
 let imagesAbout = ["./public/pexels-anntarazevich-6035331.jpg", "./public/pexels-cottonbro-4252783.jpg", "./public/pexels-cottonbro-3338535.jpg"];
 setInterval(() => {
-    let randomIndex = Math.floor(Math.random() * images.length);
-    image.src = images[randomIndex];
+    let randomIndex = Math.floor(Math.random() * imagesAbout.length);
+    imageAbout.src = imagesAbout[randomIndex];
     
 
 

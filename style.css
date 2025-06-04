@@ -3,8 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    stroke-width: 0;
+    scroll-behavior: smooth;
    
 }
+
 /* the 1st tab */
 .main{
     height: 100vh;
@@ -117,12 +120,20 @@ section{
     justify-content: center;
     align-items: center;
     gap: 60px;
+    padding: 20px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 .img2{
     height: 50vh;
     width: 50vh;
     object-fit: cover;
-    
+
 }
 .about-content{
     justify-items: center;
