@@ -85,11 +85,12 @@ section{
     gap: 20px;
     display: flex;
     flex-direction: column;
-     padding: 10px 139px;
+     padding: 10px 109px;
     justify-content: center;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow:  1px 1px 3px 5px rgba(0, 0, 0, 0.9);
     width: max-content;
     color: white
+    
 }
 .p1{
     font-size: 40px;
@@ -331,4 +332,40 @@ footer .footer-content p{
   align-items: center;
   width: 100%;
   border: 1px 0px 0px 0px solid #ee2828;
+}
+/* food corner */
+.food-corner{
+    height: 80vh;
+    display: flex;
+    background: #f0f0f0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding:  20px 420px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.food-corner .food-corner-content img{
+    
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    
+    
+}
+.food-corner .food-corner-content {
+   
+    flex-direction: column;
+    gap: 35px;
+    padding: 70px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    margin-top: 30px;
+
 }

@@ -1,0 +1,97 @@
+*{
+    font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        stroke-width: 0;
+        scroll-behavior: smooth;
+        justify-content: center;
+        align-items: center;
+}
+
+.sider-div {
+     display: flex;
+     cursor: pointer;
+ }
+
+ img {
+     height: 40px;
+     width: 40px;
+     object-fit: cover;
+ }
+
+ .round {
+     background: rgb(219, 65, 65);
+
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     margin-top: 25px;
+     margin-left: -10px;
+     text-align: center;
+
+ }
+.menu-section{
+ 
+    height: 50px;
+  
+  justify-content: space-between;
+    display: flex;
+    padding: 50px 250px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+
+
+
+}
+.menu-section .menu-header{
+    display: flex;
+    color: black;
+    gap: 10px;
+}
+.food-section{
+
+    height: calc(100vh - 50px);
+    display: flex;
+}
+.food-menu {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    gap: 20px;
+    overflow-y: auto;
+    height: 70vh;
+   stroke-width: none;
+    width: 70%;
+    margin: 0 auto;
+
+    
+    
+}
+
+.food-section .food-menu .food-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: start;
+}
+.food-section .food-menu .food-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* sidebar */
+.sidebar{
+    background: #000;
+    height: 100vh;
+    width: 40%;
+    justify-content: end;
+    z-index: 2;
+}
