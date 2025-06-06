@@ -1,0 +1,144 @@
+
+  [
+    {
+      "id": 1,
+      "name": "Spaghetti Carbonara",
+      "image": "https://example.com/images/spaghetti_carbonara.jpg",
+      "price": 12.99,
+      "info": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper."
+    },
+    {
+      "id": 2,
+      "name": "Margherita Pizza",
+      "image": "https://example.com/images/margherita_pizza.jpg",
+      "price": 8.99,
+      "info": "A simple pizza topped with tomato, fresh mozzarella, basil, and olive oil."
+    },
+    {
+      "id": 3,
+      "name": "Caesar Salad",
+      "image": "https://example.com/images/caesar_salad.jpg",
+      "price": 7.99,
+      "info": "A crisp salad with romaine lettuce, Caesar dressing, croutons, and parmesan cheese."
+    },
+    {
+      "id": 4,
+      "name": "Beef Burger",
+      "image": "https://example.com/images/beef_burger.jpg",
+      "price": 10.99,
+      "info": "A juicy beef patty served with lettuce, tomato, cheese, and a soft bun."
+    },
+    {
+      "id": 5,
+      "name": "Vegetarian Burger",
+      "image": "https://example.com/images/vegetarian_burger.jpg",
+      "price": 9.99,
+      "info": "A delicious plant-based patty with fresh vegetables, cheese, and sauce."
+    },
+    {
+      "id": 6,
+      "name": "Chicken Tikka Masala",
+      "image": "https://example.com/images/chicken_tikka_masala.jpg",
+      "price": 14.99,
+      "info": "Tender chicken in a creamy tomato-based curry sauce with aromatic spices."
+    },
+    {
+      "id": 7,
+      "name": "Fish and Chips",
+      "image": "https://example.com/images/fish_and_chips.jpg",
+      "price": 11.49,
+      "info": "Crispy battered fish fillets served with thick-cut fries and tartar sauce."
+    },
+    {
+      "id": 8,
+      "name": "Grilled Cheese Sandwich",
+      "image": "https://example.com/images/grilled_cheese.jpg",
+      "price": 5.99,
+      "info": "Melted cheese between two slices of toasted bread, served with a side of pickles."
+    },
+    {
+      "id": 9,
+      "name": "Peking Duck",
+      "image": "https://example.com/images/peking_duck.jpg",
+      "price": 18.99,
+      "info": "Crispy duck served with pancakes, hoisin sauce, and cucumber."
+    },
+    {
+      "id": 10,
+      "name": "Sushi Roll",
+      "image": "https://example.com/images/sushi_roll.jpg",
+      "price": 13.49,
+      "info": "Fresh sushi rolls with fish, rice, and seaweed."
+    },
+    {
+      "id": 11,
+      "name": "Fettuccine Alfredo",
+      "image": "https://example.com/images/fettuccine_alfredo.jpg",
+      "price": 13.99,
+      "info": "Creamy pasta with parmesan cheese and a rich white sauce."
+    },
+    {
+      "id": 12,
+      "name": "Eggplant Parmesan",
+      "image": "https://example.com/images/eggplant_parmesan.jpg",
+      "price": 11.49,
+      "info": "Breaded and fried eggplant slices topped with marinara sauce and melted mozzarella."
+    },
+    {
+      "id": 13,
+      "name": "Tacos",
+      "image": "https://example.com/images/tacos.jpg",
+      "price": 7.49,
+      "info": "Soft tortillas filled with seasoned beef, lettuce, cheese, and salsa."
+    },
+    {
+      "id": 14,
+      "name": "Pad Thai",
+      "image": "https://example.com/images/pad_thai.jpg",
+      "price": 10.99,
+      "info": "A popular Thai stir-fried noodle dish with tamarind, peanuts, and lime."
+    },
+    {
+      "id": 15,
+      "name": "Ramen",
+      "image": "https://example.com/images/ramen.jpg",
+      "price": 9.99,
+      "info": "Japanese noodle soup with a rich broth, meat, and fresh vegetables."
+    },
+    {
+      "id": 16,
+      "name": "Chicken Wings",
+      "image": "https://example.com/images/chicken_wings.jpg",
+      "price": 8.49,
+      "info": "Crispy wings tossed in a spicy buffalo sauce, served with ranch dressing."
+    },
+    {
+      "id": 17,
+      "name": "Lamb Shawarma",
+      "image": "https://example.com/images/lamb_shawarma.jpg",
+      "price": 12.49,
+      "info": "Spiced lamb served with fresh veggies, tahini, and pita bread."
+    },
+    {
+      "id": 18,
+      "name": "Falafel",
+      "image": "https://example.com/images/falafel.jpg",
+      "price": 6.99,
+      "info": "Fried chickpea balls served with hummus, salad, and pita bread."
+    },
+    {
+      "id": 19,
+      "name": "Moussaka",
+      "image": "https://example.com/images/moussaka.jpg",
+      "price": 14.99,
+      "info": "A Greek casserole made of layers of eggplant, ground meat, and béchamel sauce."
+    },
+    {
+      "id": 20,
+      "name": "Crepes",
+      "image": "https://example.com/images/crepes.jpg",
+      "price": 6.49,
+      "info": "Thin French pancakes filled with Nutella, fruits, or whipped cream."
+    }
+  ]
+
