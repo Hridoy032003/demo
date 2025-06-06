@@ -14,13 +14,14 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 100%;
 
 
 }
 
 .img1 {
-    width: 100%;
-    height: 100%;
+   width: 1200px;
+    height: 100vh;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -28,6 +29,11 @@
     z-index: -1;
 
     transition: opacity 1s ease-in-out;
+   
+    @media screen and (max-width: 768px) {
+       display: none;
+       
+    }
 }
 
 
@@ -38,10 +44,17 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: -10px 200px;
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
-    padding: 20px 250px;
+   padding: 15px 200px;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    @media screen and (max-width: 768px) {
+        padding: 15px 20px;
+        display: none;
+    }
+   
 
 }
 
@@ -85,6 +98,15 @@ section {
     display: flex;
     flex-direction: column;
     left: 0;
+    @media screen and (max-width: 768px) {
+      
+       width: 100%;
+       padding: 0;
+        align-items: center;
+        justify-content: center;
+       margin-left: -00px;
+    }
+  
 
 }
 
@@ -92,11 +114,22 @@ section {
     gap: 20px;
     display: flex;
     flex-direction: column;
-    padding: 10px 109px;
-    justify-content: center;
+   justify-items: center;
+padding: 39px;
     box-shadow: 1px 1px 3px 5px rgba(0, 0, 0, 0.9);
-    width: max-content;
-    color: white
+    width: 400px;
+    color: white;
+    @media screen and (max-width: 768px) {
+            margin: 0;
+           height: 300px;
+            display: flex;
+            width: 300px;
+            background: #a0a0a0;
+            color: black;
+            box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.7);
+
+           
+        }
 }
 
 .p1 {
@@ -142,8 +175,10 @@ section {
         height: auto;
         justify-content: center;
         align-items: center;
+        margin-top: 170px;
 
     }
+        
 }
 
 .img2 {
@@ -151,6 +186,13 @@ section {
     width: 50vh;
     object-fit: cover;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        justify-content: center;
+            
+    }
 
 }
 
@@ -163,6 +205,15 @@ section {
     display: flex;
     flex-direction: column;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    @media screen and (max-width: 768px) {
+        width: 100%;
+      
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
 }
 
 h2 {
@@ -187,6 +238,10 @@ h2 {
     align-items: center;
     padding: 20px;
     flex-direction: column;
+    @media screen and (max-width: 768px) {
+            padding: 20px;
+            margin-top: -100px;
+        }
 
 }
 
@@ -194,6 +249,11 @@ h2 {
     font-size: 40px;
 
     margin-bottom: 20px;
+    @media screen and (max-width: 768px) {
+        font-size: 25px;
+        margin-bottom: 10px;
+        
+    }
 
 }
 
@@ -216,12 +276,13 @@ h2 {
     cursor: pointer;
     scrollbar-width: none;
     -ms-overflow-style: none;
-
-
     @media screen and (max-width: 768px) {
-        width: 100%;
-        padding: 20px;
-    }
+        margin-left: -10px;
+         background: #000;
+            display: none;
+        }
+
+  
 }
 
 .review-card {
@@ -238,6 +299,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    
 }
 
 .review-section .review-slider .review-card p {
@@ -256,16 +318,29 @@ h2 {
     flex-direction: column;
     margin-bottom: 200px;
     margin-top: 250px;
+    @media screen and (max-width: 768px) {
+          margin-top: 800px;
+        }
+  
 }
 
 .contact-section h2 {
     font-size: 30px;
     margin-bottom: 100px;
+    @media screen and (max-width: 768px) {
+        font-size: 25px;
+        margin-bottom: 50px;
+        
+    }
 }
 
 .contact-section .contect-contnt {
     display: flex;
     gap: 50px;
+    @media screen and (max-width: 768px) {
+            display:flex ;
+        flex-direction: column;
+        }
 }
 
 .contact-section .contect-contnt .contact-form {
@@ -274,6 +349,27 @@ h2 {
     flex-direction: column;
     gap: 20px;
 
+}
+.contect-image{
+   
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        justify-content: center;
+        
+        }
+}
+iframe{
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        
+    }
 }
 
 .contact-section .contect-contnt .contact-form p {
@@ -285,6 +381,13 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+        margin-top: 25px;
+        
+    }
 }
 
 .contact-section .contect-contnt .contact-form input,
@@ -320,6 +423,7 @@ footer {
     gap: 200px;
     padding: 30px;
     margin-top: 100px;
+   
 }
 
 footer .footerbar {
@@ -327,6 +431,13 @@ footer .footerbar {
     display: flex;
     gap: 100px;
     margin-top: 50px;
+    @media screen and (max-width: 768px) {
+         
+            display: flex;
+            flex-direction: column;
+            
+    
+        }
 
 
 }
@@ -365,6 +476,10 @@ footer .footer-content p {
     align-items: center;
     width: 100%;
     border: 1px 0px 0px 0px solid #ee2828;
+    @media screen and (max-width: 768px) {
+       display: none;
+        
+    }
 }
 
 /* food corner */
@@ -379,6 +494,13 @@ footer .footer-content p {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 768px) {
+            
+        width: 100%;
+        padding: 10px ;
+        height: 60vh;
+        
+        }
 
 }
 
@@ -387,6 +509,13 @@ footer .footer-content p {
     height: 350px;
     width: 350px;
     object-fit: cover;
+    @media screen and (max-width: 768px) {
+        height: 200px;
+        width: 300px;
+        object-fit: cover;
+        grid-template-columns: auto ;
+        margin-top: 100px;
+        }
 
 
 }
@@ -403,6 +532,17 @@ footer .footer-content p {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     margin-top: 30px;
+    @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 40vh;
+            overflow-y: scroll;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
 
 }
 
