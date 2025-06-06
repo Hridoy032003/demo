@@ -17,3 +17,14 @@ setInterval(() => {
 
 
 }, 1000);
+
+// menu
+
+
+let iconMenu = document.querySelector(".sider-div > .icon");     
+let body = document.querySelector("body");
+
+iconMenu.addEventListener("click", () => {
+    body.classList.toggle("showCart"); // Toggles the class on body
+    console.log("clicked");
+});
