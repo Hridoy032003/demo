@@ -6,6 +6,8 @@ setInterval(() => {
     
    
 }, 1000);
+// hamburger
+
 
 // abouus slider
 let imageAbout = document.getElementById("imageAbout");
