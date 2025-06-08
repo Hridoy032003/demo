@@ -1,0 +1,217 @@
+*{
+    font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        stroke-width: 0;
+        scroll-behavior: smooth;
+        justify-content: center;
+        align-items: center;
+}
+
+.sider-div {
+     display: flex;
+     cursor: pointer;
+ }
+
+ img {
+     height: 40px;
+     width: 40px;
+     object-fit: cover;
+ }
+
+ .round {
+     background: rgb(219, 65, 65);
+
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     margin-top: 25px;
+     margin-left: -10px;
+     text-align: center;
+
+ }
+.menu-section{
+ 
+    height: 50px;
+  
+  justify-content: space-between;
+    display: flex;
+    padding: 50px 250px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+
+
+
+}
+.menu-section .menu-header{
+    display: flex;
+    color: black;
+    gap: 10px;
+}
+.food-section{
+
+    height: calc(100vh - 50px);
+    display: flex;
+}
+.food-menu {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    gap: 20px;
+    overflow-y: auto;
+    height: 70vh;
+   stroke-width: none;
+    width: 70%;
+    margin: 0 auto;
+
+    
+    
+}
+
+.food-section .food-menu .food-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: start;
+}
+.food-section .food-menu .food-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* sidebar */
+/* side-bar */
+.side-bar {
+    position: fixed;
+    inset: 0 -400px 0 auto; 
+    width: 400px;
+    height: 100vh;
+    background: #5a5757;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+
+.side-bar .upper-item {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    justify-content: start;
+    gap: 10px;
+}
+
+.side-bar .upper-item img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.side-bar .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+
+}
+
+.side-bar .button button {
+    background: #ab4242;
+    color: white;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.side-bar .button button:nth-child(2) {
+    background: #666565;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+/* item-in side the cart */
+.oder-content {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    padding: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+ 
+}
+
+.oder-content .main-container {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 30px;
+    gap: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #8f8e8e;
+    border-radius: 5px;
+ 
+
+}
+.oder-content .main-container img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.oder-content .main-container .item-content{
+    display: flex;
+
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.oder-content .main-container .item-content .item-qunity{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+   
+   }
+
+   body.showCart .side-bar{
+    inset: 0 0 0 auto;
+    transition: all 0.3s ease-in-out;
+ 
+}
+.sider-div {
+    display: flex;
+    cursor: pointer;
+}
